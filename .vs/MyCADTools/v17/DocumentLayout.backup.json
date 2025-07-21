@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4BFBE3-437B-4D8A-AA0B-2B8D0EA31FBF}|MyPlantingTool\\MyPlantingTool.csproj|c:\\users\\camer\\desktop\\apps\\mycadtools\\myplantingtool\\geometryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4BFBE3-437B-4D8A-AA0B-2B8D0EA31FBF}|MyPlantingTool\\MyPlantingTool.csproj|solutionrelative:myplantingtool\\geometryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4BFBE3-437B-4D8A-AA0B-2B8D0EA31FBF}|MyPlantingTool\\MyPlantingTool.csproj|c:\\users\\camer\\desktop\\apps\\mycadtools\\myplantingtool\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4BFBE3-437B-4D8A-AA0B-2B8D0EA31FBF}|MyPlantingTool\\MyPlantingTool.csproj|solutionrelative:myplantingtool\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4BFBE3-437B-4D8A-AA0B-2B8D0EA31FBF}|MyPlantingTool\\MyPlantingTool.csproj|c:\\users\\camer\\desktop\\apps\\mycadtools\\myplantingtool\\myplantingtool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7B4BFBE3-437B-4D8A-AA0B-2B8D0EA31FBF}|MyPlantingTool\\MyPlantingTool.csproj|solutionrelative:myplantingtool\\myplantingtool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4BFBE3-437B-4D8A-AA0B-2B8D0EA31FBF}|MyPlantingTool\\MyPlantingTool.csproj|c:\\users\\camer\\desktop\\apps\\mycadtools\\myplantingtool\\app.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7B4BFBE3-437B-4D8A-AA0B-2B8D0EA31FBF}|MyPlantingTool\\MyPlantingTool.csproj|solutionrelative:myplantingtool\\app.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyPlantingTool",
+              "DocumentMoniker": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\MyPlantingTool\\MyPlantingTool.csproj",
+              "RelativeDocumentMoniker": "MyPlantingTool\\MyPlantingTool.csproj",
+              "ToolTip": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\MyPlantingTool\\MyPlantingTool.csproj",
+              "RelativeToolTip": "MyPlantingTool\\MyPlantingTool.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T17:22:48.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Commands.cs",
+              "DocumentMoniker": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\MyPlantingTool\\Commands.cs",
+              "RelativeDocumentMoniker": "MyPlantingTool\\Commands.cs",
+              "ToolTip": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\MyPlantingTool\\Commands.cs",
+              "RelativeToolTip": "MyPlantingTool\\Commands.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFMAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:00:52.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GeometryService.cs",
+              "DocumentMoniker": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\MyPlantingTool\\GeometryService.cs",
+              "RelativeDocumentMoniker": "MyPlantingTool\\GeometryService.cs",
+              "ToolTip": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\MyPlantingTool\\GeometryService.cs",
+              "RelativeToolTip": "MyPlantingTool\\GeometryService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwFQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T04:05:41.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\MyPlantingTool\\App.config",
+              "RelativeDocumentMoniker": "MyPlantingTool\\App.config",
+              "ToolTip": "C:\\Users\\camer\\Desktop\\Apps\\MyCADTools\\MyPlantingTool\\App.config",
+              "RelativeToolTip": "MyPlantingTool\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-18T03:49:57.024Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
