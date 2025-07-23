@@ -1,0 +1,16 @@
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\bin\Debug\net8.0\MySheetSetTool.dll.config
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\bin\Debug\net8.0\MySheetSetTool.deps.json
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\bin\Debug\net8.0\MySheetSetTool.dll
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\bin\Debug\net8.0\MySheetSetTool.pdb
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.csproj.AssemblyReference.cache
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.csproj.SuggestedBindingRedirects.cache
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.dll.config
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.AssemblyInfoInputs.cache
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.AssemblyInfo.cs
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.csproj.CoreCompileInputs.cache
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.sourcelink.json
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.dll
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\refint\MySheetSetTool.dll
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\MySheetSetTool.pdb
+C:\Users\camer\Desktop\Apps\MyCADTools\MySheetSetTool\obj\Debug\net8.0\ref\MySheetSetTool.dll

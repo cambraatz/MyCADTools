@@ -1,6 +1,7 @@
-C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\bin\Debug\net8.0\MyPlantingTool.dll
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\bin\Debug\net8.0\MyPlantingTool.dll.config
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\bin\Debug\net8.0\MyPlantingTool.deps.json
+C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\bin\Debug\net8.0\MyPlantingTool.dll
+C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\bin\Debug\net8.0\MyPlantingTool.pdb
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.csproj.AssemblyReference.cache
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.csproj.SuggestedBindingRedirects.cache
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.dll.config
@@ -8,8 +9,8 @@ C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantin
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.AssemblyInfoInputs.cache
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.AssemblyInfo.cs
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.csproj.CoreCompileInputs.cache
+C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.sourcelink.json
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.dll
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\refint\MyPlantingTool.dll
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\MyPlantingTool.pdb
-C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\bin\Debug\net8.0\MyPlantingTool.pdb
 C:\Users\camer\Desktop\Apps\MyCADTools\MyPlantingTool\obj\Debug\net8.0\ref\MyPlantingTool.dll

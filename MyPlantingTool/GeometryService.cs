@@ -20,7 +20,7 @@ namespace MyPlantingTool
         private static int _approxArcSegments = _approxCircleSegments / 4;
         private static int _approxSplineEllipseSegments = 48;
 
-        private static Tolerance _defaultTolerance = new Tolerance(1e-9, 1e-9);
+        public static Tolerance _defaultTolerance = new Tolerance(1e-9, 1e-9);
 
         // HELPER: conditionally log debug messages...
         private static void LogToScreen(Editor ed, string message, bool verbose)
@@ -295,8 +295,80 @@ namespace MyPlantingTool
                 //ed.WriteMessage("\nSelected object is not a recognized or extractable boundary type.");
                 LogToScreen(ed, "\nSelected object is not a recognized or extractable boundary type.", verbose);
                 return null;
+            }   
+        }
+
+        public static bool IsPointInsidePolygon(Point2d point, List<Point2d> polygon, Tolerance? tolerance)
+        {
+            if (polygon == null || polygon.Count < 3)
+            {
+                return false; // Not a valid polygon
             }
-                
+            if (tolerance == null)
+            {
+                tolerance = _defaultTolerance;
+            }
+            // Use the ray-casting algorithm to determine if the point is inside the polygon
+            bool inside = false;
+            int n = polygon.Count;
+            for (int i = 0, j = n - 1; i < n; j = i++)
+            {
+                Point2d pi = polygon[i];
+                Point2d pj = polygon[j];
+                // Check if the point is on the edge of the polygon
+                if (pi.IsEqualTo(point, tolerance.Value) || pj.IsEqualTo(point, tolerance.Value))
+                {
+                    return true; // Point is on the boundary
+                }
+                // Check if the point is within the y-range of the edge
+                if ((pi.Y > point.Y) != (pj.Y > point.Y))
+                {
+                    // Calculate intersection with the edge
+                    double slope = (pj.X - pi.X) / (pj.Y - pi.Y);
+                    double xIntersect = pi.X + slope * (point.Y - pi.Y);
+                    if (xIntersect == point.X)
+                    {
+                        return true; // Point is on the boundary
+                    }
+                    if (xIntersect > point.X)
+                    {
+                        inside = !inside; // Toggle inside status
+                    }
+                }
+            }
+            return inside;
+        }
+
+        public static double SignedDistanceToPolygonBoundary(Point2d point, List<Point2d> polygon, Tolerance? tolerance)
+        {
+            if (polygon == null || polygon.Count < 2)
+            {
+                return double.PositiveInfinity; // Not a valid polygon
+            }
+
+            double minDistance = double.PositiveInfinity;
+            int n = polygon.Count;
+
+            // Determine if the point is inside the polygon with signed distance
+            for (int i=0; i<n; i++)
+            {
+                Point2d p1 = polygon[i];
+                Point2d p2 = polygon[(i + 1) % n]; // Wrap around to the first point
+                LineSegment2d segment = new LineSegment2d(p1, p2);
+
+                // Calculate the distance from the point to the line segment p1-p2
+                double distance = segment.GetDistanceTo(point);
+                minDistance = Math.Min(minDistance, distance);
+            }
+
+            if (IsPointInsidePolygon(point, polygon, tolerance))
+            {
+                return -minDistance; // Inside the polygon, return negative distance
+            }
+            else
+            {
+                return minDistance; // Outside the polygon, return positive distance
+            }
         }
     }
 }
